@@ -9,6 +9,8 @@
 
 defined('_JEXEC') or die;
 
+
+ 
 /** @var JDocumentHtml $this */
 
 $app  = JFactory::getApplication();
@@ -183,6 +185,7 @@ else
 					</div>
 					<!-- End Sidebar -->
 				<?php endif; ?>
+				<?php echo "This is docker release test.";?>
 				<main id="content" role="main" class="<?php echo $span; ?>">
 					<!-- Begin Content -->
 					<jdoc:include type="modules" name="position-3" style="xhtml" />
