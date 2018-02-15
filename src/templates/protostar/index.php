@@ -9,6 +9,8 @@
 
 defined('_JEXEC') or die;
 
+
+ 
 /** @var JDocumentHtml $this */
 
 $app  = JFactory::getApplication();
@@ -173,6 +175,7 @@ else
 				</nav>
 			<?php endif; ?>
 			<jdoc:include type="modules" name="banner" style="xhtml" />
+			<?php echo "This is docker release test.";?>
 			<div class="row-fluid">
 				<?php if ($position8ModuleCount) : ?>
 					<!-- Begin Sidebar -->
